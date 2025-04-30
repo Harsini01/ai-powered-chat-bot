@@ -10,7 +10,7 @@ import pandas as pd
 import fitz  # PyMuPDF for PDFs
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyBiH-Rh7mpkldBpwKnsanR2hGrcAkTQZws")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Load Excel/CSV file
